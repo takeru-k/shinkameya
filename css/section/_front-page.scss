@@ -21,7 +21,7 @@
 
 ---------------------------------*/
 .intro{
-  padding: 1rem 0 3rem;
+  padding: 3rem 0;
   border-bottom: 1px solid #4c4c4c;
 }
 
@@ -81,7 +81,7 @@
   @extend %padding;
 
   li{
-    padding-bottom: 1.5rem;
+    padding-bottom: 2.5rem;
   }
 
   img{
@@ -100,7 +100,12 @@
 .menu-price{
   font-size: 0.9rem;
   line-height: 1.5;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+
+  &:before{
+    content: '/';
+    margin-right: 0.5rem;
+  }
 }
 
 .menu-link{

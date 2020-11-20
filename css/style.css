@@ -60,7 +60,7 @@ body {
  余白
 
 ---------------------------------*/
-.section-ttl_p, .main-items, .gmap-img, .article {
+.main-items, .gmap-img, .article {
   padding: 1rem 0;
 }
 
@@ -605,7 +605,7 @@ template {
 .top-ttl {
   font-weight: bold;
   font-size: 1.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .txt {
@@ -618,6 +618,12 @@ template {
   position: relative;
   font-size: 1.5rem;
   text-align: center;
+  font-weight: bold;
+}
+
+.section-ttl_p {
+  padding: 2rem 0;
+  line-height: 2;
 }
 
 .after {
@@ -789,7 +795,7 @@ template {
 
 ---------------------------------*/
 .intro {
-  padding: 1rem 0 3rem;
+  padding: 3rem 0;
   border-bottom: 1px solid #4c4c4c;
 }
 
@@ -847,7 +853,7 @@ template {
 }
 
 .main-items li {
-  padding-bottom: 1.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .main-items img {
@@ -866,7 +872,12 @@ template {
 .menu-price {
   font-size: 0.9rem;
   line-height: 1.5;
-  margin-left: 1rem;
+  margin-left: 0.5rem;
+}
+
+.menu-price:before {
+  content: '/';
+  margin-right: 0.5rem;
 }
 
 .menu-link {
