@@ -650,6 +650,13 @@ template {
   left: -30px;
 }
 
+.menu-txt {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 2;
+  border-bottom: 1px solid #4c4c4c;
+}
+
 .header-inner {
   padding-top: 1rem;
   padding-bottom: 1rem;
