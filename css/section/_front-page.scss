@@ -95,6 +95,11 @@
   font-weight: bold;
   letter-spacing: 2px;
   display: inline-block;
+  
+  &:before{
+    content: '■';
+    padding-right: 0.2rem;
+  }
 }
 
 .menu-price{
