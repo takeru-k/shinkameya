@@ -13,8 +13,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   color: #fff;
-  background: #000;
-  font-family: YuMincho,游明朝,"秀英丸ゴシック B", ShueiMGoStd-B, "游ゴシック体", "Yu Gothic", YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  background: #111;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
@@ -48,7 +48,7 @@ body {
 
 ---------------------------------*/
 .bg {
-  background: #000;
+  background: #111;
 }
 
 .bg-accent {
@@ -112,7 +112,7 @@ body {
 }
 
 .post-type-archive .breadcrumb-area {
-  background: #000;
+  background: #111;
 }
 
 /*---------------------------------
@@ -633,7 +633,7 @@ template {
   position: relative;
   width: 100px;
   margin: 0 auto 0;
-  background-color: #000;
+  background-color: #111;
   text-align: center;
 }
 

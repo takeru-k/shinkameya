@@ -22,7 +22,7 @@ $c-sub: #9ACB3C;
 $c-accent: #00ACBA;
 
 //背景色
-$c-bg: #000;
+$c-bg: #111;
 
 //テキスト色
 $c-txt: #fff;
@@ -40,7 +40,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: $c-txt;
   background: $c-bg;
-  font-family: YuMincho,游明朝,"秀英丸ゴシック B", ShueiMGoStd-B, "游ゴシック体", "Yu Gothic", YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
