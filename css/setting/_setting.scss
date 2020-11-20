@@ -4,12 +4,12 @@
 
 ---------------------------------*/
 // 画面サイズ
-$container_size: 1024px;
+$container_size: 1068px;
 
 $pc: $container_size;
 
 $mq_pc: 'screen and (min-width: #{$container_size})';
-$mq_tab: 'screen and (max-width: 896px)';
+$mq_tab: 'screen and (min-width: 560px)';
 $mq_sp: 'screen and (max-width: 480px)';
 
 // メインカラー
@@ -40,7 +40,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: $c-txt;
   background: $c-bg;
-  font-family: "秀英丸ゴシック B", ShueiMGoStd-B, "游ゴシック体", "Yu Gothic", YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-family: YuMincho,游明朝,"秀英丸ゴシック B", ShueiMGoStd-B, "游ゴシック体", "Yu Gothic", YuGothic, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
@@ -89,6 +89,10 @@ body {
 ---------------------------------*/
 %padding{
   padding: 1rem 0;
+}
+
+%padding-m{
+  padding: 3rem 0;
 }
 
 .padding-m{
